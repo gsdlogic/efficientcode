@@ -1,5 +1,7 @@
 # ASP.NET Core Web API Hints, Tips and Snipits
 
+[Home](index.md)
+
 ## Quick links
 
 - [Swagger OpenAPI](https://swagger.io/specification/)

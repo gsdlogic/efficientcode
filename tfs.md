@@ -1,5 +1,7 @@
 # TFS Hints, Tips and Snipits
 
+[Home](index.md)
+
 ## Quick links
 
 - [Predefined Build Variables](https://docs.microsoft.com/en-us/vsts/pipelines/build/variables?view=vsts)

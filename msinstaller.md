@@ -1,5 +1,7 @@
 # Windows Installer Hints, Tips and Snipits
 
+[Home](index.md)
+
 ## Quick links
 
 - [Windows Installer Best Practices](https://docs.microsoft.com/en-us/windows/desktop/Msi/windows-installer-best-practices)

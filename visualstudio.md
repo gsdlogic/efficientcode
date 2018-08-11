@@ -1,5 +1,7 @@
 # Visual Studio Hints, Tips and Snipits
 
+[Home](index.md)
+
 ## Blank Solution
 
 1. File => New Project => Other Project Types => Visual Studio Solution

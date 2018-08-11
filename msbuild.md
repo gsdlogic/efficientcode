@@ -1,5 +1,7 @@
 ﻿# MSBuild Hints, Tips and Snipits
 
+[Home](index.md)
+
 ## Quick links
 
 - [Common Macros for Build Commands and Properties](https://msdn.microsoft.com/en-us/library/c02as0cs.aspx)
