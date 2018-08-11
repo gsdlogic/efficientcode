@@ -2,11 +2,14 @@
 
 [Home](index.md)
 
+## Quick links
+
+- [Pro Git 2nd Editon](https://git-scm.com/book/en/v2/)
+- [TFS Git Command Reference](https://docs.microsoft.com/en-us/vsts/repos/git/command-prompt?view=vsts)
+
 ## Basics
 
 ### View History One Line Per Commit
-
-[Documentation](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 
 ```
 git log --pretty=oneline
