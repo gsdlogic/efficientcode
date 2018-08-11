@@ -2,27 +2,26 @@
 
 ## Quick links
 
-[Swagger OpenAPI](https://swagger.io/specification/)
-
-[Swachbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+- [Swagger OpenAPI](https://swagger.io/specification/)
+- [Swachbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 
 ## Topics To Consider
 
-* StyleCop compliant
-* CodeAnalysis compliant
-* All code in .NET Standard library
-* NuGet package creation
-* Application authentication/authorization
-* User authentication/authorization
-* TLS support
-* Configuraiton
-* Logging
-* Error handling
-* API versioning
-* Caching (ETag/If-Match/If-None-Match)
-* HATEOAS
-* Unit testing
-* Documentation
+- StyleCop compliant
+- CodeAnalysis compliant
+- All code in .NET Standard library
+- NuGet package creation
+- Application authentication/authorization
+- User authentication/authorization
+- TLS support
+- Configuraiton
+- Logging
+- Error handling
+- API versioning
+- Caching (ETag/If-Match/If-None-Match)
+- HATEOAS
+- Unit testing
+- Documentation
 
 ## Definitions
 
