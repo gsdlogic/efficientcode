@@ -4,6 +4,7 @@
 
 ## Quick links
 
+- [REST API Tutorial](https://restfulapi.net)
 - [Swagger OpenAPI](https://swagger.io/specification/)
 - [Swachbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 
