@@ -8,6 +8,9 @@
 - [How to setup your own CA with OpenSSL](https://gist.github.com/Soarez/9688998)
 - [Import and Export RSA Key Formats in .NET Core 3](https://vcsjones.dev/2019/10/07/key-formats-dotnet-3/)
 - [The Most Common OpenSSL Commands](https://www.sslshopper.com/article-most-common-openssl-commands.html)
+- [How to create a self-signed certificate in .NET Core](https://stackoverflow.com/questions/42786986/how-to-create-a-valid-self-signed-x509certificate2-programmatically-not-loadin)
+- [Creating an X.509 Certificate Chain in C#](https://blog.rassie.dk/2018/04/creating-an-x-509-certificate-chain-in-c/)
+- [CertificateUtil](https://github.com/rwatjen/AzureIoTDPSCertificates/blob/master/src/DPSCertificateTool/CertificateUtil.cs)
 
 ## Types of Certificates
 
@@ -121,3 +124,10 @@ var request = new CertificateRequest(
 
 var csr = request.CreateSigningRequest();
 ```
+
+The [CertificateRequest](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest?view=netcore-3.1) is the base class used for creating certificates.
+
+See also:
+
+- [CertificateRequest.Create](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.create?view=netcore-3.1)
+- [CertificateRequest.CreateSelfSigned](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.createselfsigned?view=netcore-3.1)
