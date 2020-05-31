@@ -128,6 +128,14 @@ var csr = request.CreateSigningRequest();
 
 The [CertificateRequest](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest?view=netcore-3.1) is the base class used for creating certificates.
 
+## Code Signing Certificate
+
+### PowerShell
+
+```
+New-SelfSignedCertificate -Type Custom -Subject "CN=Developer" -KeyUsage DigitalSignature -FriendlyName "Developer Code Signing Certificate" -CertStoreLocation "Cert:\CurrentUser\My" -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.3", "2.5.29.19={text}")
+```
+
 See also:
 
 - [CertificateRequest.Create](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.create?view=netcore-3.1)
