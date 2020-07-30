@@ -316,7 +316,7 @@ public class ShoppingCartController : ControllerBase
     }
 ```
 
-## Jason Web Tokens (JWT)
+## JSON Web Tokens (JWT)
 
 https://jwt.io
 
