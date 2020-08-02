@@ -15,11 +15,11 @@ organized
 ## Hints, Tips and Snipits
 
 - [Git](git.md)
+- [Middleware](middleware.md)
 - [MSBuild](msbuild.md)
+- [PKI](pki.md)
 - [Team Foundation Server](tfs.md)
 - [Visual Studio](visualstudio.md)
 - [Web API](webapi.md)
 - [Windows Installer](msinstaller.md)
 - [Windows Presentation Foundation (WPF)](wpf.md)
-- [PKI](pki.md)
-
