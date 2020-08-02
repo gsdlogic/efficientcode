@@ -55,3 +55,30 @@ Outputs:
 ```
 ABCDEFG
 ```
+
+This example demonstrates how to create a class that can be used as custom middleware:
+
+```
+public class CustomMiddleware
+{
+    private readonly Action next;
+
+    public CustomMiddleware(Action next)
+    {
+        this.next = next ?? throw new ArgumentNullException(nameof(next));
+    }
+
+    public void Invoke()
+    {
+        // execute code before the next middleware in the pipeline.
+        this.next.DynamicInvoke();
+        // execute code after the next middleware in the pipeline.
+    }
+}
+```
+
+To inject this class into the pipeline:
+
+```
+middleware.Add(next => new CustomMiddleware(next).Invoke);
+```
