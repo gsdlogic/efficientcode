@@ -79,6 +79,6 @@ public class CustomMiddleware
 
 To inject this class into the pipeline:
 
-```
+```C#
 middleware.Add(next => new CustomMiddleware(next).Invoke);
 ```
