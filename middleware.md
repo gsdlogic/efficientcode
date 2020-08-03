@@ -58,7 +58,7 @@ ABCDEFG
 
 This example demonstrates how to create a class that can be used as custom middleware:
 
-```
+```C#
 public class CustomMiddleware
 {
     private readonly Action next;
