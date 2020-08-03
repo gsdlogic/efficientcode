@@ -4,7 +4,7 @@
 
 This middleware pattern is derived from the ASP.NET Core [ApplicationBuilder](https://github.com/aspnet/HttpAbstractions/blob/master/src/Microsoft.AspNetCore.Http/Internal/ApplicationBuilder.cs) class:
 
-```
+```C#
 private static void Main()
 {
     IList<Func<Action, Action>> middleware = new List<Func<Action, Action>>();
