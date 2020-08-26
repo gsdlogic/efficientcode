@@ -85,3 +85,11 @@ git remote rm origin
 ```
 git submodule update --init --recursive
 ```
+
+### History
+
+Remove a directory from history:
+
+```
+git filter-branch -f --tree-filter "rm -rf directory" --prune-empty HEAD
+```
