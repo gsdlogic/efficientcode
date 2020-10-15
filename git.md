@@ -88,6 +88,12 @@ git submodule update --init --recursive
 
 ### History
 
+List objects by size (PowerShell)
+
+```
+git rev-list --objects --all | git cat-file --batch-check='%(objecttype),%(objectname),%(objectsize),%(rest)' | ConvertFrom-CSV -Header 'type', 'object', 'size', 'path' | %{ New-Object PSObject -Prop @{ type=[string]($_.type); object=[string]($_.object); size=[int]($_.size); path=[string]($_.path); }} | Sort-Object -Property size | Format-Table -AutoSize
+```
+
 Remove a directory from history:
 
 ```
