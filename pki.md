@@ -80,6 +80,48 @@ To export the public key in RSA PKCS#1 format, use:
 
 [RSA.ExportRSAPublicKey](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.rsa.exportrsapublickey?view=netcore-3.1)
 
+Use the following table to map PEM encoded files to .NET Core methods:
+
+| PEM Label             | Type  | Method                         |
+|-----------------------|------ |--------------------------------|
+| RSA PRIVATE KEY|      | RSA   | ImportRSAPrivateKey            |
+| PRIVATE KEY	        | RSA   | ImportPkcs8PrivateKey          |
+| ENCRYPTED PRIVATE KEY | RSA   | ImportEncryptedPkcs8PrivateKey |
+| RSA PUBLIC KEY	    | RSA   | ImportRSAPublicKey             |
+| PUBLIC KEY            | RSA   | ImportSubjectPublicKeyInfo     |
+| EC PRIVATE KEY        | ECDsa | ImportECPrivateKey             |
+
+For example, with the following PEM encoded file:
+
+```
+-----BEGIN EC PRIVATE KEY-----
+...
+-----END EC PRIVATE KEY-----
+```
+
+Import the file using the following code:
+
+```
+var key = Convert.FromBase64String("abc...");
+var ecdsa = ECDsa.Create();
+ecdsa.ImportECPrivateKey(key, out _);
+```
+
+Given a PEM encoded certificate:
+
+```
+-----BEGIN CERTIFICATE-----
+...
+-----END CERTIFICATE-----
+```
+
+Load a certificate with the key:
+
+```
+var cert = new X509Certificate2(Convert.FromBase64String("..."))
+    .CopyWithPrivateKey(key);
+```
+
 ## Certificate Signing Request (CSR)
 
 ### OpenSSL
