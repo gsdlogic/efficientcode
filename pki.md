@@ -84,7 +84,7 @@ Use the following table to map PEM encoded files to .NET Core methods:
 
 | PEM Label             | Type  | Method                         |
 |-----------------------|------ |--------------------------------|
-| RSA PRIVATE KEY|      | RSA   | ImportRSAPrivateKey            |
+| RSA PRIVATE KEY       | RSA   | ImportRSAPrivateKey            |
 | PRIVATE KEY	        | RSA   | ImportPkcs8PrivateKey          |
 | ENCRYPTED PRIVATE KEY | RSA   | ImportEncryptedPkcs8PrivateKey |
 | RSA PUBLIC KEY	    | RSA   | ImportRSAPublicKey             |
@@ -107,6 +107,8 @@ var ecdsa = ECDsa.Create();
 ecdsa.ImportECPrivateKey(key, out _);
 ```
 
+## Certificates
+
 Given a PEM encoded certificate:
 
 ```
@@ -120,6 +122,12 @@ Load a certificate with the key:
 ```
 var cert = new X509Certificate2(Convert.FromBase64String("..."))
     .CopyWithPrivateKey(key);
+```
+
+Convert PEM certificate and key to PFX:
+
+```
+openssl pkcs12 -inkey key.pem -in cert.pem -export -out cert.pfx
 ```
 
 ## Certificate Signing Request (CSR)
