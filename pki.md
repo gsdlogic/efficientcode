@@ -13,12 +13,15 @@
 - [CertificateUtil](https://github.com/rwatjen/AzureIoTDPSCertificates/blob/master/src/DPSCertificateTool/CertificateUtil.cs)
 - [Create a certificate for package signing](https://docs.microsoft.com/en-us/windows/msix/package/create-certificate-package-signing)
 - [Configure certificate authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.1#configure-your-server-to-require-certificates)
+- [How to tell DV and OV certificates apart](https://unmitigatedrisk.com/?p=203)
+- [CA/EV Processing for CAs](https://wiki.mozilla.org/CA/EV_Processing_for_CAs)
 
 ## Types of Certificates
 
 - Root certificate (CA)
 - Intermediate certificate (CA)
 - Domain validation certificate (DV)
+- Organization validation certificate (OV)
 - Extended validation certificate (EV)
 - Subject Alternative Name (SAN)
 - Self-signed certificate
@@ -108,6 +111,14 @@ ecdsa.ImportECPrivateKey(key, out _);
 ```
 
 ## Certificates
+
+Types of certificates:
+
+| Type                                     | Policy Identifier |
+|------------------------------------------|-------------------|
+| Domain validation certificate (DV)       | 2.23.140.1.2.1    |
+| Organization validation certificate (OV) | 2.23.140.1.2.2    |
+| Extended validation certificate (EV)     | 2.23.140.1.1      |
 
 Given a PEM encoded certificate:
 
