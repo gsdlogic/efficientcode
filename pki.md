@@ -16,6 +16,7 @@
 - [How to tell DV and OV certificates apart](https://unmitigatedrisk.com/?p=203)
 - [CA/EV Processing for CAs](https://wiki.mozilla.org/CA/EV_Processing_for_CAs)
 - [Configure certificate authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-6.0)
+- [Overview of TLS - SSL (Schannel SSP)](https://docs.microsoft.com/en-us/windows-server/security/tls/what-s-new-in-tls-ssl-schannel-ssp-overview)
 
 ## Types of Certificates
 
