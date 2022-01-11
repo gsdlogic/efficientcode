@@ -15,6 +15,7 @@
 - [Configure certificate authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.1#configure-your-server-to-require-certificates)
 - [How to tell DV and OV certificates apart](https://unmitigatedrisk.com/?p=203)
 - [CA/EV Processing for CAs](https://wiki.mozilla.org/CA/EV_Processing_for_CAs)
+- [Configure certificate authentication in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-6.0)
 
 ## Types of Certificates
 
