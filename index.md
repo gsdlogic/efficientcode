@@ -23,4 +23,4 @@ organized
 - [Web API](webapi.md)
 - [Windows Installer](msinstaller.md)
 - [Windows Presentation Foundation (WPF)](wpf.md)
-- [Templates](classlibrarytemplate.md)
+- [Templates](templates.md)
