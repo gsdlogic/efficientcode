@@ -1,3 +1,5 @@
+## Class Library (.csproj)
+
 ```
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -8,7 +10,7 @@
     <Product>{Product}</Product>
     <Authors>{Company}</Authors>
     <Company>{Company}</Company>
-    <Copyright>Copyright © 2022 {Company}. All Rights Reserved.</Copyright>
+    <Copyright>Copyright © {Year} {Company}. All Rights Reserved.</Copyright>
     <Version>0.0.0.0</Version>
     <InformationalVersion>0.0.0.0</InformationalVersion>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -39,4 +41,24 @@
   </ItemGroup>
 
 </Project>
+```
+
+## stylecop.json
+
+```
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "{Company}",
+      "copyrightText": "Copyright © {Year} {Company}. All Rights Reserved.",
+      "documentInterfaces": true,
+      "documentExposedElements": true,
+      "documentInternalElements": true,
+      "documentPrivateElements": true,
+      "documentPrivateFields": true,
+      "xmlHeader": true
+    }
+  }
+}
 ```
