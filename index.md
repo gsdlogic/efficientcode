@@ -1,4 +1,3 @@
-# *efficientcode.org*
 
 **efficient**  
 *adjective | i-ˈfi-shənt*  
@@ -12,8 +11,8 @@ a set of instructions for a computer
 *abbreviation*  
 organized
 
-## Resources
+# Resources
 
-[Coding Standards](codingstandards/index.md)
+[Coding Standards](standards.md)
 
-[Windows Presentation Foundation (WPF)](wpf/index.md)
+[Windows Presentation Foundation (WPF)](wpf.md)
