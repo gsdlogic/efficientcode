@@ -11,8 +11,6 @@ a set of instructions for a computer
 *abbreviation*  
 organized
 
-# Resources
-
 [Coding Standards](standards.md)
 
 [Windows Presentation Foundation (WPF)](wpf.md)
