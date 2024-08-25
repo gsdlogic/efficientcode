@@ -1,4 +1,4 @@
-# Welcome to *efficientcode.org*
+# *efficientcode.org*
 
 **efficient**  
 *adjective | i-ˈfi-shənt*  
@@ -12,15 +12,8 @@ a set of instructions for a computer
 *abbreviation*  
 organized
 
-## Hints, Tips and Snipits
+## Resources
 
-- [Git](git.md)
-- [Middleware](middleware.md)
-- [MSBuild](msbuild.md)
-- [PKI](pki.md)
-- [Team Foundation Server](tfs.md)
-- [Visual Studio](visualstudio.md)
-- [Web API](webapi.md)
-- [Windows Installer](msinstaller.md)
-- [Windows Presentation Foundation (WPF)](wpf.md)
-- [Templates](templates.md)
+[Coding Standards](codingstandards/index.md)
+
+[Windows Presentation Foundation (WPF)](wpf/index.md)
