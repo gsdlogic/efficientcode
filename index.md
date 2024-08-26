@@ -11,6 +11,10 @@ a set of instructions for a computer
 *abbreviation*  
 organized
 
-[Coding Standards](standards.md)
+---
 
-[Windows Presentation Foundation (WPF)](wpf.md)
+# Resources
+
+[Coding Standards](standards/index.md)
+
+[Windows Presentation Foundation (WPF)](wpf/index.md)
