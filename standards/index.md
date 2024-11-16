@@ -17,8 +17,10 @@
 
 6. **Web API Design**: Web API resources should follow a [RESTful web API](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) design, adhering to a level 2 or above [maturity model](https://martinfowler.com/articles/richardsonMaturityModel.html).
 
-Supporting files updated for Visual Studio 2022 version 17.12 and .NET 9:
+## Supporting Files
 
-- [.editorconfig](.editorconfig)
+These files have been updated for Visual Studio 2022 version 17.12 and .NET 9:
+
+- [.editorconfig](editorconfig)
 - [stylecop.json](stylecop.json)
 - [Directory.Build.props](Directory.Build.props)
