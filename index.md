@@ -17,4 +17,6 @@ organized
 
 [Coding Standards](standards/index.md)
 
+[Templates](templates/index.md)
+
 [Windows Presentation Foundation (WPF)](wpf/index.md)

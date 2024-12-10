@@ -1,0 +1,207 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<!-- cctor -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Shortcut/@EntryValue">cctor</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Text/@EntryValue">Initializes a new instance of the &lt;see cref="$class$" /&gt; class.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Field/=class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Field/=class/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Field/=class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Field/=class/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E2395B8074AA349B59EE6215EFFF069/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- ctask -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Shortcut/@EntryValue">ctask</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Text/@EntryValue">A &lt;see cref="Task" /&gt; representing any asynchronous operation.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F6A21B47A6FEE44BD27AA4928C9F9EE/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- cnull -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Shortcut/@EntryValue">cnull</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Text/@EntryValue">&lt;see langword="null" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83A2E26824B71D45B71759FAC062561C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- ccancel -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Shortcut/@EntryValue">ccancel</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Text/@EntryValue">The &lt;see cref="CancellationToken" /&gt; to monitor for cancellation requests.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91343F3C1619A94C990FD849E3BAD9FA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- cfalse -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Shortcut/@EntryValue">cfalse</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Text/@EntryValue">&lt;see langword="false" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A52E0AF287019647B1AEB180A7D6F0D9/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- ctrue -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Shortcut/@EntryValue">ctrue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Text/@EntryValue">&lt;see langword="true" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B05DFA7695380B44B0F5397A084D0C4E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	
+	<!-- cdispose -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Description/@EntryValue">Implements the standard IDisposable pattern.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Shortcut/@EntryValue">cdispose</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Text/@EntryValue">    /// &lt;summary&gt;&#xD;
+    /// Finalizes an instance of the &lt;see cref="$class$" /&gt; class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    ~$class$()&#xD;
+    {&#xD;
+        this.Dispose(false);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public void Dispose()&#xD;
+    {&#xD;
+        this.Dispose(true);&#xD;
+        GC.SuppressFinalize(this);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="disposing"&gt;Indicates whether managed resources will be disposed.&lt;/param&gt;&#xD;
+    protected virtual void Dispose(bool disposing)&#xD;
+    {&#xD;
+        if (disposing)&#xD;
+        {&#xD;
+        }&#xD;
+    }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Field/=class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Field/=class/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Field/=class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Field/=class/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=659F2B08A57F2347AEAB793E0BDE6900/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	
+	<!-- cadispose -->
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Description/@EntryValue">Implements the standard IDisposable pattern.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Shortcut/@EntryValue">cadispose</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Text/@EntryValue">    /// &lt;summary&gt;&#xD;
+    /// Indicates whether this instance has already been disposed.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    private bool disposed;&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Finalizes an instance of the &lt;see cref="$class$" /&gt; class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    ~$class$()&#xD;
+    {&#xD;
+        this.Dispose(false);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public void Dispose()&#xD;
+    {&#xD;
+        this.Dispose(true);&#xD;
+        GC.SuppressFinalize(this);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources asynchronously.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="ValueTask" /&gt; that represents the asynchronous dispose operation.&lt;/returns&gt;&#xD;
+    public async ValueTask DisposeAsync()&#xD;
+    {&#xD;
+        await this.DisposeAsyncCore().ConfigureAwait(false);&#xD;
+&#xD;
+        this.Dispose(false);&#xD;
+        GC.SuppressFinalize(this);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="disposing"&gt;Indicates whether managed resources will be disposed.&lt;/param&gt;&#xD;
+    protected virtual void Dispose(bool disposing)&#xD;
+    {&#xD;
+        if (this.disposed)&#xD;
+        {&#xD;
+            return;&#xD;
+        }&#xD;
+&#xD;
+        if (disposing)&#xD;
+        {&#xD;
+            // Dispose managed resources here.&#xD;
+&#xD;
+            ////this.disposable?.Dispose();&#xD;
+&#xD;
+            ////this.aysncDisposable?.DisposeAsync().AsTask().Wait();&#xD;
+        }&#xD;
+&#xD;
+		// Free unmanaged resources here.&#xD;
+&#xD;
+        this.disposed = true;&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources asynchronously.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="ValueTask" /&gt; that represents the asynchronous dispose operation.&lt;/returns&gt;&#xD;
+    protected virtual ValueTask DisposeAsyncCore()&#xD;
+    {&#xD;
+        if (this.disposed)&#xD;
+        {&#xD;
+            return default;&#xD;
+        }&#xD;
+&#xD;
+        // Asynchronously dispose managed resources here.&#xD;
+&#xD;
+        ////this.disposable?.Dispose();&#xD;
+&#xD;
+        ////if (this.aysncDisposable != null)&#xD;
+        ////{&#xD;
+        ////    await this.aysncDisposable.DisposeAsync().ConfigureAwait(false);&#xD;
+        ////}&#xD;
+&#xD;
+        this.disposed = true;&#xD;
+&#xD;
+        return default;&#xD;
+    }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Field/=class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Field/=class/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Field/=class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Field/=class/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5C555469C8A274783DE616D9F1901AE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	
+</wpf:ResourceDictionary>
