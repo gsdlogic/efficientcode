@@ -20,8 +20,9 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <FileVersion>0.0.0.0</FileVersion>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
-    <InformationalVersion>0.0.0.0 (development)</InformationalVersion>
     <PackageVersion>0.0.0-dev.0</PackageVersion>
+    <InformationalVersion>0.0.0.0 (development)</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
 
     <!-- Code Analysis -->
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
