@@ -32,4 +32,7 @@ dotnet_diagnostic.IDE0072.severity = none # Add missing cases to switch expressi
 
 [*.cshtml.cs]
 dotnet_diagnostic.CA1812.severity = none # Avoid uninstantiated internal classes
-dotnet_diagnostic.SA1649.severity = none # File name must match type name 
+dotnet_diagnostic.SA1649.severity = none # File name must match type name
+
+[*.razor.cs]
+dotnet_diagnostic.CA1515.severity = none # Consider making public types internal
